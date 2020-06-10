@@ -13,9 +13,14 @@ import android.net.*;
 import android.text.*;
 import android.util.*;
 import android.webkit.*;
+import java.io.IOException;
 import android.animation.*;
 import android.view.animation.*;
 import java.util.*;
+import android.os.AsyncTask;
+import android.util.Log;
+import android.app.Activity;
+import android.os.Bundle;
 import java.text.*;
 import java.util.HashMap;
 import java.util.ArrayList;
@@ -50,9 +55,31 @@ import java.text.DecimalFormat;
 import com.google.gson.reflect.TypeToken;
 import android.Manifest;
 import android.content.pm.PackageManager;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.mime.HttpMultipartMode;
+import org.apache.http.entity.mime.MultipartEntity;
+import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
+
 
 public class MainActivity extends Activity {
-	
+	private static final String TAG = "MainActivity.java";
 	public final int REQ_CD_IMAGES = 101;
 	private Timer _timer = new Timer();
 	
@@ -68,6 +95,8 @@ public class MainActivity extends Activity {
 	private String addresse = "";
 	private double send = 0;
 	private String filepa = "";
+	private String filename = "";
+	private String file = "";
 	private String dates = "";
 	private String timing = "";
 	private String name = "";
@@ -239,8 +268,7 @@ public class MainActivity extends Activity {
 		imageview1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				phone.setClass(getApplicationContext(), UploadActivity.class);
-				startActivity(phone);
+				startActivityForResult(images, REQ_CD_IMAGES);
 			}
 		});
 		
@@ -425,11 +453,49 @@ public class MainActivity extends Activity {
 					}
 				}
 				headers = new HashMap<>();
-				headers.put("filepath", _filePath.get((int)(0)));
-				headers.put("filename", Uri.parse(_filePath.get((int)(0))).getLastPathSegment());
-				headers.put("upload_files", _filePath.get((int)(0)));
-				net.setHeaders(headers);
-				net.startRequestNetwork(RequestNetworkController.POST, "https://upload--konsttlt86.repl.co/up.php", "U", _net_request_listener);
+				String filem =_filePath.get((int)(0));
+				filename = Uri.parse(_filePath.get((int)(0))).getLastPathSegment();
+				String textFile = filem;
+				Log.v(TAG, "textFile: " + textFile);
+
+// the URL where the file will be posted
+				String postReceiverUrl = "https://up.kamakepar.repl.co";
+				Log.v(TAG, "postURL: " + postReceiverUrl);
+
+// new HttpClient
+				HttpClient httpClient = new DefaultHttpClient();
+
+// post header
+				HttpPost httpPost = new HttpPost(postReceiverUrl);
+
+				File file = new File(textFile);
+				FileBody fileBody = new FileBody(file);
+
+				MultipartEntity reqEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);
+				reqEntity.addPart("file", fileBody);
+				httpPost.setEntity(reqEntity);
+
+// execute HTTP post request
+				HttpResponse response = null;
+				try {
+					response = httpClient.execute(httpPost);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				HttpEntity resEntity = response.getEntity();
+
+				if (resEntity != null) {
+
+					String responseStr = null;
+					try {
+						responseStr = EntityUtils.toString(resEntity).trim();
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+					Log.v(TAG, "Response: " +  responseStr);
+
+					// you can add an if statement here and do other actions based on the response
+				}
 			}
 			else {
 				
