@@ -22,5 +22,5 @@ jobs:
 
 
     - name: Build with Gradle
-      run: ./gradlew build yes | sdkmanager --licenses && sdkmanager --update
+      run: ./gradlew build yes | sdkmanager --licenses --scan --stacktrace && sdkmanager --update
   
