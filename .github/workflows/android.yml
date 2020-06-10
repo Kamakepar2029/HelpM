@@ -37,6 +37,3 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build :app:build
-  
-    - name: Update
-      run: ./gradlew build --update --scan --continue --stacktrace
