@@ -49,7 +49,7 @@
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/home/runner/work/HelpM/HelpM/app/src/main/java/com/help/me/MainActivity.java"
-            line="364"
+            line="392"
             column="11"/>
     </issue>
 
@@ -67,7 +67,7 @@
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/home/runner/work/HelpM/HelpM/app/src/main/java/com/help/me/MainActivity.java"
-            line="365"
+            line="393"
             column="12"/>
     </issue>
 
@@ -85,7 +85,7 @@
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/home/runner/work/HelpM/HelpM/app/src/main/java/com/help/me/MainActivity.java"
-            line="482"
+            line="548"
             column="42"/>
     </issue>
 
@@ -103,7 +103,7 @@
         errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/home/runner/work/HelpM/HelpM/app/src/main/java/com/help/me/MainActivity.java"
-            line="483"
+            line="549"
             column="45"/>
     </issue>
 
@@ -140,6 +140,38 @@
     </issue>
 
     <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of org.apache.httpcomponents:httpcore than 4.2.4 is available: 4.4.10"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1=" compileOnly &quot;org.apache.httpcomponents:httpcore:4.2.4&quot;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/runner/work/HelpM/HelpM/app/build.gradle"
+            line="28"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of org.apache.httpcomponents:httpmime than 4.3 is available: 4.5.6"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1=" compileOnly &quot;org.apache.httpcomponents:httpmime:4.3&quot;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/runner/work/HelpM/HelpM/app/build.gradle"
+            line="29"
+            column="2"/>
+    </issue>
+
+    <issue
         id="BadHostnameVerifier"
         severity="Warning"
         message="`verify` always returns `true`, which could cause insecure network traffic due to trusting TLS/SSL server certificates for wrong hostnames"
@@ -169,7 +201,7 @@
         errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/home/runner/work/HelpM/HelpM/app/src/main/java/com/help/me/MainActivity.java"
-            line="148"
+            line="177"
             column="3"/>
     </issue>
 

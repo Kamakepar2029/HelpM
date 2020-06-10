@@ -173,10 +173,10 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 70 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 72 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Wed Jun 10 20:56:34 UTC 2020      </nav>
+Check performed at Wed Jun 10 21:58:46 UTC 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -185,7 +185,7 @@ Check performed at Wed Jun 10 20:56:34 UTC 2020      </nav>
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#ExifInterface"><i class="material-icons warning-icon">warning</i>Using <code>android.media.ExifInterface</code> (1)</a>
       <a class="mdl-navigation__link" href="#SimpleDateFormat"><i class="material-icons warning-icon">warning</i>Implied locale in date format (5)</a>
-      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (2)</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (4)</a>
       <a class="mdl-navigation__link" href="#BadHostnameVerifier"><i class="material-icons warning-icon">warning</i>Insecure HostnameVerifier (1)</a>
       <a class="mdl-navigation__link" href="#SetJavaScriptEnabled"><i class="material-icons warning-icon">warning</i>Using <code>setJavaScriptEnabled</code> (2)</a>
       <a class="mdl-navigation__link" href="#TrustAllX509TrustManager"><i class="material-icons warning-icon">warning</i>Insecure TLS/SSL trust manager (2)</a>
@@ -223,7 +223,7 @@ Check performed at Wed Jun 10 20:56:34 UTC 2020      </nav>
 <td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#SimpleDateFormat">SimpleDateFormat</a>: Implied locale in date format</td></tr>
 <tr>
-<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
 </td></tr>
@@ -360,44 +360,44 @@ Dismiss</button>            </div>
 <span class="lineno"> 602 </span><span class="keyword">return</span> file;
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:364</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
-<span class="lineno"> 361 </span>    }
-<span class="lineno"> 362 </span>    <span class="keyword">private</span> <span class="keyword">void</span> initializeLogic() {
-<span class="lineno"> 363 </span>        datey = Calendar.getInstance();
-<span class="caretline"><span class="lineno"> 364 </span>        dates = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"MM.dd.YYYY"</span>)</span>.format(datey.getTime());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 365 </span>        timing = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>).format(datey.getTime());
-<span class="lineno"> 366 </span>        locatios.startRequestNetwork(RequestNetworkController.GET, <span class="string">"https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412"</span>, <span class="string">"A"</span>, _locatios_request_listener);
-<span class="lineno"> 367 </span>        <span class="keyword">if</span> (Build.VERSION.SDK_INT >= <span class="number">23</span>) {<span class="keyword">if</span> (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:392</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 389 </span>    }
+<span class="lineno"> 390 </span>    <span class="keyword">private</span> <span class="keyword">void</span> initializeLogic() {
+<span class="lineno"> 391 </span>        datey = Calendar.getInstance();
+<span class="caretline"><span class="lineno"> 392 </span>        dates = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"MM.dd.YYYY"</span>)</span>.format(datey.getTime());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 393 </span>        timing = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>).format(datey.getTime());
+<span class="lineno"> 394 </span>        locatios.startRequestNetwork(RequestNetworkController.GET, <span class="string">"https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412"</span>, <span class="string">"A"</span>, _locatios_request_listener);
+<span class="lineno"> 395 </span>        <span class="keyword">if</span> (Build.VERSION.SDK_INT >= <span class="number">23</span>) {<span class="keyword">if</span> (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:365</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
-<span class="lineno"> 362 </span>    <span class="keyword">private</span> <span class="keyword">void</span> initializeLogic() {
-<span class="lineno"> 363 </span>        datey = Calendar.getInstance();
-<span class="lineno"> 364 </span>        dates = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"MM.dd.YYYY"</span>).format(datey.getTime());
-<span class="caretline"><span class="lineno"> 365 </span>        timing = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>)</span>.format(datey.getTime());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 366 </span>        locatios.startRequestNetwork(RequestNetworkController.GET, <span class="string">"https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412"</span>, <span class="string">"A"</span>, _locatios_request_listener);
-<span class="lineno"> 367 </span>        <span class="keyword">if</span> (Build.VERSION.SDK_INT >= <span class="number">23</span>) {<span class="keyword">if</span> (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-<span class="lineno"> 368 </span>                location.requestLocationUpdates(LocationManager.GPS_PROVIDER, <span class="number">1</span>, <span class="number">1</span>, _location_location_listener);
+<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:393</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 390 </span>    <span class="keyword">private</span> <span class="keyword">void</span> initializeLogic() {
+<span class="lineno"> 391 </span>        datey = Calendar.getInstance();
+<span class="lineno"> 392 </span>        dates = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"MM.dd.YYYY"</span>).format(datey.getTime());
+<span class="caretline"><span class="lineno"> 393 </span>        timing = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>)</span>.format(datey.getTime());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 394 </span>        locatios.startRequestNetwork(RequestNetworkController.GET, <span class="string">"https://api.ipgeolocation.io/ipgeo?apiKey=7634e348c5174d09a516c137bcc6c412"</span>, <span class="string">"A"</span>, _locatios_request_listener);
+<span class="lineno"> 395 </span>        <span class="keyword">if</span> (Build.VERSION.SDK_INT >= <span class="number">23</span>) {<span class="keyword">if</span> (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+<span class="lineno"> 396 </span>                location.requestLocationUpdates(LocationManager.GPS_PROVIDER, <span class="number">1</span>, <span class="number">1</span>, _location_location_listener);
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:482</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
-<span class="lineno"> 479 </span>        datey = Calendar.getInstance();
-<span class="lineno"> 480 </span>        number.get((<span class="keyword">int</span>)number.size()).put(<span class="string">"number"</span>, String.valueOf((<span class="keyword">long</span>)(SketchwareUtil.getRandom((<span class="keyword">int</span>)(<span class="number">1000</span>), (<span class="keyword">int</span>)(<span class="number">1999</span>)))));
-<span class="lineno"> 481 </span>        status.get((<span class="keyword">int</span>)status.size()).put(<span class="string">"status"</span>, <span class="string">"завершен"</span>);
-<span class="caretline"><span class="lineno"> 482 </span>        date.get((<span class="keyword">int</span>)date.size()).put(<span class="string">"date"</span>, <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"dd:mm:yy"</span>)</span>.format(datey.getTime()));&nbsp;</span>
-<span class="lineno"> 483 </span>        times.get((<span class="keyword">int</span>)times.size()).put(<span class="string">"times"</span>, <span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>).format(datey.getTime()));
-<span class="lineno"> 484 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/number.ks"</span>, <span class="keyword">new</span> Gson().toJson(number));
-<span class="lineno"> 485 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/status.ks"</span>, <span class="keyword">new</span> Gson().toJson(status));
+<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:548</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 545 </span>        datey = Calendar.getInstance();
+<span class="lineno"> 546 </span>        number.get((<span class="keyword">int</span>)number.size()).put(<span class="string">"number"</span>, String.valueOf((<span class="keyword">long</span>)(SketchwareUtil.getRandom((<span class="keyword">int</span>)(<span class="number">1000</span>), (<span class="keyword">int</span>)(<span class="number">1999</span>)))));
+<span class="lineno"> 547 </span>        status.get((<span class="keyword">int</span>)status.size()).put(<span class="string">"status"</span>, <span class="string">"завершен"</span>);
+<span class="caretline"><span class="lineno"> 548 </span>        date.get((<span class="keyword">int</span>)date.size()).put(<span class="string">"date"</span>, <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"dd:mm:yy"</span>)</span>.format(datey.getTime()));&nbsp;</span>
+<span class="lineno"> 549 </span>        times.get((<span class="keyword">int</span>)times.size()).put(<span class="string">"times"</span>, <span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>).format(datey.getTime()));
+<span class="lineno"> 550 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/number.ks"</span>, <span class="keyword">new</span> Gson().toJson(number));
+<span class="lineno"> 551 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/status.ks"</span>, <span class="keyword">new</span> Gson().toJson(status));
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:483</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
-<span class="lineno"> 480 </span>        number.get((<span class="keyword">int</span>)number.size()).put(<span class="string">"number"</span>, String.valueOf((<span class="keyword">long</span>)(SketchwareUtil.getRandom((<span class="keyword">int</span>)(<span class="number">1000</span>), (<span class="keyword">int</span>)(<span class="number">1999</span>)))));
-<span class="lineno"> 481 </span>        status.get((<span class="keyword">int</span>)status.size()).put(<span class="string">"status"</span>, <span class="string">"завершен"</span>);
-<span class="lineno"> 482 </span>        date.get((<span class="keyword">int</span>)date.size()).put(<span class="string">"date"</span>, <span class="keyword">new</span> SimpleDateFormat(<span class="string">"dd:mm:yy"</span>).format(datey.getTime()));
-<span class="caretline"><span class="lineno"> 483 </span>        times.get((<span class="keyword">int</span>)times.size()).put(<span class="string">"times"</span>, <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>)</span>.format(datey.getTime()));</span>
-<span class="lineno"> 484 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/number.ks"</span>, <span class="keyword">new</span> Gson().toJson(number));
-<span class="lineno"> 485 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/status.ks"</span>, <span class="keyword">new</span> Gson().toJson(status));
-<span class="lineno"> 486 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/date.ks"</span>, <span class="keyword">new</span> Gson().toJson(date));
+<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:549</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 546 </span>        number.get((<span class="keyword">int</span>)number.size()).put(<span class="string">"number"</span>, String.valueOf((<span class="keyword">long</span>)(SketchwareUtil.getRandom((<span class="keyword">int</span>)(<span class="number">1000</span>), (<span class="keyword">int</span>)(<span class="number">1999</span>)))));
+<span class="lineno"> 547 </span>        status.get((<span class="keyword">int</span>)status.size()).put(<span class="string">"status"</span>, <span class="string">"завершен"</span>);
+<span class="lineno"> 548 </span>        date.get((<span class="keyword">int</span>)date.size()).put(<span class="string">"date"</span>, <span class="keyword">new</span> SimpleDateFormat(<span class="string">"dd:mm:yy"</span>).format(datey.getTime()));
+<span class="caretline"><span class="lineno"> 549 </span>        times.get((<span class="keyword">int</span>)times.size()).put(<span class="string">"times"</span>, <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"hh:mm:ss"</span>)</span>.format(datey.getTime()));</span>
+<span class="lineno"> 550 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/number.ks"</span>, <span class="keyword">new</span> Gson().toJson(number));
+<span class="lineno"> 551 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/status.ks"</span>, <span class="keyword">new</span> Gson().toJson(status));
+<span class="lineno"> 552 </span>        FileUtil.writeFile(<span class="string">"/storage/emulated/0/Android/data/com.help.me/date.ks"</span>, <span class="keyword">new</span> Gson().toJson(date));
 </pre>
 
 </div>
@@ -439,12 +439,13 @@ Dismiss</button>            </div>
 <div class="issue">
 <div class="warningslist">
 <span class="location"><a href="../../build.gradle">../../build.gradle</a>:26</span>: <span class="message">A newer version of com.google.code.gson:gson than 2.8.0 is available: 2.8.5</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span>    compile fileTree(dir: <span class="string">'libs'</span>, include: [<span class="string">'*.jar'</span>])
+<span class="lineno"> 23 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: [<span class="string">'*.jar'</span>])
 <span class="lineno"> 24 </span>    implementation <span class="string">'com.google.android.gms:play-services-maps:17.0.0'</span>
 <span class="lineno"> 25 </span>    implementation <span class="string">'com.github.bumptech.glide:glide:3.7.0'</span>
 <span class="caretline"><span class="lineno"> 26 </span>    <span class="warning">implementation <span class="string">'com.google.code.gson:gson:2.8.0'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno"> 27 </span>    implementation <span class="string">'com.squareup.okhttp3:okhttp:3.9.1'</span>
-<span class="lineno"> 28 </span>}
+<span class="lineno"> 28 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpcore:4.2.4"</span>
+<span class="lineno"> 29 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpmime:4.3"</span>
 </pre>
 
 <span class="location"><a href="../../build.gradle">../../build.gradle</a>:27</span>: <span class="message">A newer version of com.squareup.okhttp3:okhttp than 3.9.1 is available: 3.10.0</span><br /><pre class="errorlines">
@@ -452,7 +453,29 @@ Dismiss</button>            </div>
 <span class="lineno"> 25 </span>    implementation <span class="string">'com.github.bumptech.glide:glide:3.7.0'</span>
 <span class="lineno"> 26 </span>    implementation <span class="string">'com.google.code.gson:gson:2.8.0'</span>
 <span class="caretline"><span class="lineno"> 27 </span>    <span class="warning">implementation <span class="string">'com.squareup.okhttp3:okhttp:3.9.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 28 </span>}
+<span class="lineno"> 28 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpcore:4.2.4"</span>
+<span class="lineno"> 29 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpmime:4.3"</span>
+<span class="lineno"> 30 </span>    implementation fileTree(dir: <span class="string">'src\\main\\lib'</span>, include: [<span class="string">'*.aar'</span>, <span class="string">'*.jar'</span>], exclude: [])
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:28</span>: <span class="message">A newer version of org.apache.httpcomponents:httpcore than 4.2.4 is available: 4.4.10</span><br /><pre class="errorlines">
+<span class="lineno"> 25 </span>    implementation <span class="string">'com.github.bumptech.glide:glide:3.7.0'</span>
+<span class="lineno"> 26 </span>    implementation <span class="string">'com.google.code.gson:gson:2.8.0'</span>
+<span class="lineno"> 27 </span>    implementation <span class="string">'com.squareup.okhttp3:okhttp:3.9.1'</span>
+<span class="caretline"><span class="lineno"> 28 </span>    <span class="warning">compileOnly <span class="string">"org.apache.httpcomponents:httpcore:4.2.4"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 29 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpmime:4.3"</span>
+<span class="lineno"> 30 </span>    implementation fileTree(dir: <span class="string">'src\\main\\lib'</span>, include: [<span class="string">'*.aar'</span>, <span class="string">'*.jar'</span>], exclude: [])
+<span class="lineno"> 31 </span>    compileOnly fileTree(dir: <span class="string">'src\\main\\lib'</span>, include: [<span class="string">'*.aar'</span>, <span class="string">'*.jar'</span>], exclude: [])
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:29</span>: <span class="message">A newer version of org.apache.httpcomponents:httpmime than 4.3 is available: 4.5.6</span><br /><pre class="errorlines">
+<span class="lineno"> 26 </span>    implementation <span class="string">'com.google.code.gson:gson:2.8.0'</span>
+<span class="lineno"> 27 </span>    implementation <span class="string">'com.squareup.okhttp3:okhttp:3.9.1'</span>
+<span class="lineno"> 28 </span>    compileOnly <span class="string">"org.apache.httpcomponents:httpcore:4.2.4"</span>
+<span class="caretline"><span class="lineno"> 29 </span>    <span class="warning">compileOnly <span class="string">"org.apache.httpcomponents:httpmime:4.3"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 30 </span>    implementation fileTree(dir: <span class="string">'src\\main\\lib'</span>, include: [<span class="string">'*.aar'</span>, <span class="string">'*.jar'</span>], exclude: [])
+<span class="lineno"> 31 </span>    compileOnly fileTree(dir: <span class="string">'src\\main\\lib'</span>, include: [<span class="string">'*.aar'</span>, <span class="string">'*.jar'</span>], exclude: [])
+<span class="lineno"> 32 </span>}
 </pre>
 
 </div>
@@ -538,14 +561,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:148</span>: <span class="message">Using <code>setJavaScriptEnabled</code> can introduce XSS vulnerabilities into your application, review carefully.</span><br /><pre class="errorlines">
-<span class="lineno"> 145 </span>        button1 = (Button) findViewById(R.id.button1);
-<span class="lineno"> 146 </span>        textview1 = (TextView) findViewById(R.id.textview1);
-<span class="lineno"> 147 </span>        webview1 = (WebView) findViewById(R.id.webview1);
-<span class="caretline"><span class="lineno"> 148 </span>        <span class="warning">webview1.getSettings().setJavaScriptEnabled(<span class="keyword">true</span>)</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 149 </span>        webview1.getSettings().setSupportZoom(<span class="keyword">true</span>);
-<span class="lineno"> 150 </span>        linear1 = (LinearLayout) findViewById(R.id.linear1);
-<span class="lineno"> 151 </span>        mapview1 = (MapView) findViewById(R.id.mapview1);
+<span class="location"><a href="../../src/main/java/com/help/me/MainActivity.java">../../src/main/java/com/help/me/MainActivity.java</a>:177</span>: <span class="message">Using <code>setJavaScriptEnabled</code> can introduce XSS vulnerabilities into your application, review carefully.</span><br /><pre class="errorlines">
+<span class="lineno"> 174 </span>        button1 = (Button) findViewById(R.id.button1);
+<span class="lineno"> 175 </span>        textview1 = (TextView) findViewById(R.id.textview1);
+<span class="lineno"> 176 </span>        webview1 = (WebView) findViewById(R.id.webview1);
+<span class="caretline"><span class="lineno"> 177 </span>        <span class="warning">webview1.getSettings().setJavaScriptEnabled(<span class="keyword">true</span>)</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 178 </span>        webview1.getSettings().setSupportZoom(<span class="keyword">true</span>);
+<span class="lineno"> 179 </span>        linear1 = (LinearLayout) findViewById(R.id.linear1);
+<span class="lineno"> 180 </span>        mapview1 = (MapView) findViewById(R.id.mapview1);
 </pre>
 
 <span class="location"><a href="../../src/main/java/com/help/me/UploadActivity.java">../../src/main/java/com/help/me/UploadActivity.java</a>:76</span>: <span class="message">Using <code>setJavaScriptEnabled</code> can introduce XSS vulnerabilities into your application, review carefully.</span><br /><pre class="errorlines">
