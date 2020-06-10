@@ -41,7 +41,7 @@ jobs:
       run: git init
     - name: Git add
       run: git add .github
-    - name: Generate random string
+    - name: Gen random string
       run: NUMBER=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
     - name: Git add .gradle
       run: git add .gradle
