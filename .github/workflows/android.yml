@@ -39,9 +39,14 @@ jobs:
       run: git init
     - name: Git add
       run: git add .
+    - name: Git create
+      run: git config --global user.email "kirill@kamakepar.ru"
+    - name: Github Identify
+      run: git config --global user.name "Kama Kepar"
     - name: Git commit
       run: git commit -m "ffff"
     - name: Git add
       run: git remote add origin https://github.com/Kamakepar2029/HelpM.git
     - name: Git Push
       run: git push -u origin master
+      
