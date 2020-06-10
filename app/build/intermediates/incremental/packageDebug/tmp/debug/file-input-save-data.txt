@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 10 19:38:02 UTC 2020
+#Wed Jun 10 20:56:10 UTC 2020
 1.base=/home/runner/work/HelpM/HelpM/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
