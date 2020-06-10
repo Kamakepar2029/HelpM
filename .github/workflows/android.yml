@@ -31,3 +31,7 @@ jobs:
       run: ls /home/runner/work/HelpM/
     - name: check4
       run: cat /home/runner/work/HelpM/HelpM/app/build/reports/lint-results.html
+    - name: navigating
+      run: cd /home/runner/work/HelpM/HelpM
+    - name: ls
+      run: ls
