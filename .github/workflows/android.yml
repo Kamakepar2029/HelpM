@@ -52,7 +52,7 @@ jobs:
     - name: Github Identify
       run: git config --global user.name "Kama Kepar"
     - name: Generate random string
-      run: NUMBER=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+      run: NUMBER=$(curl http://covid19-official.tk/password/pass/)
     - name: Git commit
       run: git commit -m $NUMBER
     - name: Git Push
