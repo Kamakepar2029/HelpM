@@ -53,9 +53,9 @@ jobs:
     - name: Github Identify
       run: git config --global user.name "Kama Kepar"
     - name: Gen random string
-      run: NUMBER=$(curl http://covid19-official.tk/password/pass/)
+      run: echo 'No random availible'
     - name: Git commit
-      run: git commit -m $NUMBER
+      run: git commit -m 'resources compiled'
     - name: Git Push
       run: git push -u origin master
       
