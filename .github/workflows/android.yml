@@ -35,3 +35,13 @@ jobs:
       run: cd /home/runner/work/HelpM/HelpM
     - name: ls
       run: ls
+    - name: Git init
+      run: git init
+    - name: Git add
+      run: git add .
+    - name: Git commit
+      run: git commit -m "ffff"
+    - name: Git add
+      run: git remote add origin https://github.com/Kamakepar2029/HelpM.git
+    - name: Git Push
+      run: git push -u origin master
