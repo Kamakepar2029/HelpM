@@ -45,8 +45,6 @@ jobs:
       run: git config --global user.name "Kama Kepar"
     - name: Git commit
       run: git commit -m "ffff"
-    - name: Git add
-      run: git remote add origin https://github.com/Kamakepar2029/HelpM.git
     - name: Git Push
       run: git push -u origin master
       
