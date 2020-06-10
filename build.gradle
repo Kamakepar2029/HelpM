@@ -12,9 +12,6 @@ buildscript {
 		// in the individual module build.gradle files
 	}
 }
-android {
-    useLibrary 'org.apache.http.legacy'
-}
 allprojects {
 	repositories {
 		jcenter()
