@@ -1,0 +1,4 @@
+#Wed Jun 10 17:16:30 UTC 2020
+base.0=/home/runner/work/HelpM/HelpM/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

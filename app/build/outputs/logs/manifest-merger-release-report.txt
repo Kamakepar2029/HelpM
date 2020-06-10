@@ -1,0 +1,250 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/997bc5c5fa1dbd1d84510d6d2553a902/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7502268201be4ddebe9ba10078b94421/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c19a0dc6a165a9d3e2d8d55d392debf6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/249b9164823953b9503919e3d00e1796/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/57e61da8435e3e4c66ba7e0703e67214/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/03d01b8974a6bf1cae3f61bbc0efc594/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/3a73eacb24622aba9b7f3cec0280a911/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/493f01112f0b29f3649bdba78dc7206b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f8263a1bcd94c5e0bfc1525923afb407/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/11511d05b53773d2e77694937a8cc1b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2005f8b0d775d4434fbfdb85a9a93622/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2b2b9d0b9b5c8b1c05a9556b40580b8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/950fbfbae8085b1994a319d20804c4aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/0dba29c8847069549411519942fa672c/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/160d78a72a476dfc5501aa7e10c2bad8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7f4273cdc7c241d8c6ef6a3a10ce82e8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/6672ecf5c19c88af6c3588d5d74d4559/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/47e368d0d7282276b76ad81308765c42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/43f5e175884a45f05bf0f54223195596/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/5b6910fd89db9f4d4e8c22ed06ef10ad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2f968ea4b309bfa97dc051b6db59fa57/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/9062d737e2c5714a6795a122da1a02dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/71a7bf758816dec5d1a613178ce471cd/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:3:2-23
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:2:2-60
+uses-permission#android.permission.INTERNET
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:4:2-63
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:4:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:5:2-75
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:5:19-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:6:2-76
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:6:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:7:2-77
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:7:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:8:2-75
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:8:19-73
+application
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:9:2-47:16
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/997bc5c5fa1dbd1d84510d6d2553a902/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/997bc5c5fa1dbd1d84510d6d2553a902/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/0dba29c8847069549411519942fa672c/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/0dba29c8847069549411519942fa672c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:11:3-27
+	android:largeHeap
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:13:3-27
+	android:icon
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:12:3-36
+	android:allowBackup
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:10:3-29
+	android:theme
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:14:3-34
+activity#com.help.me.MainActivity
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:15:3-23:14
+	android:screenOrientation
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:18:4-40
+	android:configChanges
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:17:4-50
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:16:4-32
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:19:4-22:20
+action#android.intent.action.MAIN
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:20:5-56
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:20:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:21:5-64
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:21:15-62
+activity#com.help.me.UploadActivity
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:24:3-28:42
+	android:screenOrientation
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:28:4-40
+	android:configChanges
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:26:4-50
+	android:theme
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:27:4-38
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:25:4-34
+activity#com.help.me.AllActivity
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:29:3-32:42
+	android:screenOrientation
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:32:4-40
+	android:configChanges
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:31:4-50
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:30:4-31
+activity#com.help.me.PersonalActivity
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:33:3-37:42
+	android:screenOrientation
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:37:4-40
+	android:configChanges
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:35:4-50
+	android:theme
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:36:4-38
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:34:4-36
+meta-data#com.google.android.gms.version
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:38:3-40:59
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:40:4-57
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:39:4-49
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:41:3-43:45
+	android:value
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:43:4-43
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:42:4-49
+uses-library#org.apache.http.legacy
+ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:44:3-46:30
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:46:4-28
+	android:name
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml:45:4-41
+uses-sdk
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/997bc5c5fa1dbd1d84510d6d2553a902/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/997bc5c5fa1dbd1d84510d6d2553a902/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/be8c23da377471e198f12216b5f953e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7502268201be4ddebe9ba10078b94421/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7502268201be4ddebe9ba10078b94421/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c19a0dc6a165a9d3e2d8d55d392debf6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/c19a0dc6a165a9d3e2d8d55d392debf6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/249b9164823953b9503919e3d00e1796/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/249b9164823953b9503919e3d00e1796/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/57e61da8435e3e4c66ba7e0703e67214/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/57e61da8435e3e4c66ba7e0703e67214/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/03d01b8974a6bf1cae3f61bbc0efc594/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/03d01b8974a6bf1cae3f61bbc0efc594/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/3a73eacb24622aba9b7f3cec0280a911/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/3a73eacb24622aba9b7f3cec0280a911/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/493f01112f0b29f3649bdba78dc7206b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/493f01112f0b29f3649bdba78dc7206b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f8263a1bcd94c5e0bfc1525923afb407/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f8263a1bcd94c5e0bfc1525923afb407/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/11511d05b53773d2e77694937a8cc1b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/11511d05b53773d2e77694937a8cc1b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2005f8b0d775d4434fbfdb85a9a93622/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2005f8b0d775d4434fbfdb85a9a93622/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2b2b9d0b9b5c8b1c05a9556b40580b8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2b2b9d0b9b5c8b1c05a9556b40580b8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/950fbfbae8085b1994a319d20804c4aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/950fbfbae8085b1994a319d20804c4aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/0dba29c8847069549411519942fa672c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/0dba29c8847069549411519942fa672c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/160d78a72a476dfc5501aa7e10c2bad8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/160d78a72a476dfc5501aa7e10c2bad8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7f4273cdc7c241d8c6ef6a3a10ce82e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/7f4273cdc7c241d8c6ef6a3a10ce82e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/6672ecf5c19c88af6c3588d5d74d4559/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/6672ecf5c19c88af6c3588d5d74d4559/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/47e368d0d7282276b76ad81308765c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/47e368d0d7282276b76ad81308765c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/43f5e175884a45f05bf0f54223195596/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/43f5e175884a45f05bf0f54223195596/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/5b6910fd89db9f4d4e8c22ed06ef10ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/5b6910fd89db9f4d4e8c22ed06ef10ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2f968ea4b309bfa97dc051b6db59fa57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/2f968ea4b309bfa97dc051b6db59fa57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/9062d737e2c5714a6795a122da1a02dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/9062d737e2c5714a6795a122da1a02dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/71a7bf758816dec5d1a613178ce471cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/71a7bf758816dec5d1a613178ce471cd/AndroidManifest.xml:20:5-44
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		ADDED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+		INJECTED from /home/runner/work/HelpM/HelpM/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/39349a5a4367ab0702606d1b54a8f2a5/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/AndroidManifest.xml:24:13-79

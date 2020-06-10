@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_upload.xml.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/layout/upload.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_camera_alt_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_camera_alt_black.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_personal.xml.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/layout/personal.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_app_icon.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pin_drop_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_pin_drop_black.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_arrow_back_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_arrow_back_black.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_attach_file_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_attach_file_black.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_group_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_group_black.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_default_image.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/default_image.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/91d4cbb86f6b3f7c904a088ca566f836/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_arrow_back_white.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_arrow_back_white.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_all.xml.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/layout/all.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/layout_item.xml.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/layout/item.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "/home/runner/.gradle/caches/transforms-2/files-2.1/daf4137409e36c90dfb36daf3d08cd11/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/runner/work/HelpM/HelpM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_dehaze_black.png.flat",
+        "source": "/home/runner/work/HelpM/HelpM/app/src/main/res/drawable-xhdpi/ic_dehaze_black.png"
+    }
+]
