@@ -36,7 +36,7 @@ jobs:
       run: unzip sdk-tools-linux-3859397.zip
 
     - name: Build with Gradle
-      run: ./gradlew build --task :app:build
+      run: ./gradlew build :app:build
   
     - name: Update
       run: ./gradlew build --update --scan --continue --stacktrace
