@@ -19,7 +19,8 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: chmod a=rwx ./gradlew
-      
+    - name: Apt install SDKmanager  
+      run: apt install sdkmanager 
     - name: Checking
       run: yes | sdkmanager --licenses && sdkmanager --update
     - name: Build with Gradle
