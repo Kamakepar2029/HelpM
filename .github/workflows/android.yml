@@ -22,3 +22,12 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build :app:build
+      
+    - name: check
+      run: ls /home/runner/work/HelpM/HelpM/app/build/reports/
+    - name: check2
+      run: ls /home/runner/work/HelpM/HelpM/app/build/
+    - name: check3
+      run: ls /home/runner/work/HelpM/
+    - name: check4
+      run: cat /home/runner/work/HelpM/HelpM/app/build/reports/lint-results.html
