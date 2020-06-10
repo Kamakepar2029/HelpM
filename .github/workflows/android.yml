@@ -19,9 +19,8 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: chmod a=rwx ./gradlew
-
-    - name: Update
-      run: sudo yes | bash gradlew build --update --scan --continue --stacktrace
     - name: Build with Gradle
-      run: ./gradlew build -y --licenses --scan --stacktrace
-  
+      run: ./gradlew build -y --licenses
+    - name: Update
+      run: ./gradlew build --update --scan --continue --stacktrace
+    
