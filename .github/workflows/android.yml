@@ -21,7 +21,7 @@ jobs:
       run: chmod a=rwx ./gradlew
 
     - name: Update
-      run: ./gradlew build sdkmanager --update
+      run: ./gradlew build --update
     - name: Build with Gradle
-      run: ./gradlew build yes | sdkmanager --licenses --scan --stacktrace
+      run: ./gradlew build -y --licenses --scan --stacktrace
   
