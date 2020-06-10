@@ -40,7 +40,11 @@ jobs:
     - name: Git init
       run: git init
     - name: Git add
-      run: git add .
+      run: git add .github
+    - name: Git add .gradle
+      run: git add .gradle
+    - name: .appbuild
+      run: git add app/build
     - name: Git create
       run: git config --global user.email "kirill@kamakepar.ru"
     - name: Github Identify
