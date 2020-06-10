@@ -19,6 +19,9 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: chmod a=rwx ./gradlew
-
+      
+    - name: Checking
+      run: yes | sdkmanager --licenses && sdkmanager --update
     - name: Build with Gradle
       run: ./gradlew build
+  
