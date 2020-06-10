@@ -35,6 +35,8 @@ jobs:
       run: cd /home/runner/work/HelpM/HelpM
     - name: ls
       run: ls
+    - name: ls app
+      run: ls app
     - name: Git init
       run: git init
     - name: Git add
