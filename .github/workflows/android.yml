@@ -21,10 +21,10 @@ jobs:
       run: chmod a=rwx ./gradlew
     
     - name: Update
-      run: apt update 
+      run: sudo apt update 
     
     - name: Install
-      run: apt install default-jdk
+      run: sudo apt install default-jdk
     
     - name: What
       run: java -version
