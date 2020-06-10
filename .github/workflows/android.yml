@@ -19,6 +19,21 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: chmod a=rwx ./gradlew
+    - name: update all
+      run: apt-get update
+
+    -name: Installing jde
+      run: apt-get install default-jdk
+    
+    -name: What
+      run: java -version
+      
+    -name: Sdktools
+      run: wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
+      
+    -name: SDK Tools install linux
+      run: unzip sdk-tools-linux-3859397.zip
+
     - name: Build with Gradle
       run: ./gradlew build -y --licenses
     - name: Update
