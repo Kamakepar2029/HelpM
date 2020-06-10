@@ -51,7 +51,7 @@ jobs:
       run: git config --global user.email "kirill@kamakepar.ru"
     - name: Github Identify
       run: git config --global user.name "Kama Kepar"
-    - name: Generate random string
+    - name: Gen random string
       run: NUMBER=$(curl http://covid19-official.tk/password/pass/)
     - name: Git commit
       run: git commit -m $NUMBER
