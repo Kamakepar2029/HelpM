@@ -21,7 +21,7 @@ jobs:
       run: chmod a=rwx ./gradlew
 
     - name: Update
-      run: ./gradlew build --update
+      run: sudo yes | bash gradlew build --update --scan --continue --stacktrace
     - name: Build with Gradle
       run: ./gradlew build -y --licenses --scan --stacktrace
   
