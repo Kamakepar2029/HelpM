@@ -50,9 +50,9 @@ jobs:
     - name: .apps
       run: git add make.apk
     - name: Git create
-      run: git config --global user.email "kirill@kamakepar.ru"
+      run: git config --global user.email "user@xaker.tk"
     - name: Github Identify
-      run: git config --global user.name "Kama Kepar"
+      run: git config --global user.name "USER"
     - name: Gen random string
       run: echo 'No random availible'
     - name: Git commit
